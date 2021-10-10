@@ -6,13 +6,13 @@
 /*   By: jokang <autoba9687@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 20:21:38 by jokang            #+#    #+#             */
-/*   Updated: 2021/10/09 20:29:50 by jokang           ###   ########.fr       */
+/*   Updated: 2021/10/10 12:13:35 by jaewopar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c)
+void	ft_putchar(char c)
 {
-    write (1, &c, 1);
+	write (1, &c, 1);
 }

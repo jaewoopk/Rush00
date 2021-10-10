@@ -2,7 +2,7 @@
 
 void	rush(int x, int y);
 void	ft_print_row(int x, char first_ch, char second_ch, char third_ch);
-void	ft_putchar (char c);
+void	ft_putchar(char c);
 
 void	rush(int x, int y)
 {
@@ -28,7 +28,7 @@ void	rush(int x, int y)
 	}
 }
 
-void	ft_print_row(int x, char first_ch , char second_ch, char third_ch)
+void	ft_print_row(int x, char first_ch, char second_ch, char third_ch)
 {
 	int		col;
 
