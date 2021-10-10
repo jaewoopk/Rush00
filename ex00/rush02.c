@@ -1,24 +1,27 @@
 #include <unistd.h>
 
 void	rush(int x, int y);
-void	ft_print_row(int x, char firtst_ch, char second_ch, char third_ch);
-void	ft_putchar(char c);
+void	ft_print_row(int x, char first_ch, char second_ch, char third_ch);
+void	ft_putchar (char c);
 
 void	rush(int x, int y)
 {
 	int		row;
-	int		col;
 
 	row = 0;
 	while (row < y)
 	{
-		if (row == 0 || row == y - 1)
+		if (row == 0)
 		{
-			ft_print_row (x, 'o', '-', 'o');
+			ft_print_row (x, 'A', 'B', 'A');
+		}
+		else if (row < y - 1)
+		{
+			ft_print_row (x, 'B', ' ', 'B');
 		}
 		else
 		{
-			ft_print_row (x, '|', ' ', '|');
+			ft_print_row (x, 'C', 'B', 'C');
 		}
 		ft_putchar ('\n');
 		row++;
